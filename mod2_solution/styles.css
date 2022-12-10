@@ -51,29 +51,33 @@ h1 {
   padding: 2%;
   padding-top: 55px;
   background-color: rgba(0,0,0,0.3);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .name1{
   background-color: #FFB6C1;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .name2{
   color: white;
   background-color: #FF0000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .name3{
   background-color: #FFFF00;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
-/*For large devices*/
+/*For large devices only*/
 @media (min-width: 992px) {
   .col-lg-4 {
   	float: left;
     width: 33.33%;
   }
 }
-/*For medium devices*/ 
+/*For medium devices*/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6,.col-md-12 {
     float: left;
